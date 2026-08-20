@@ -116,6 +116,9 @@ The public workshop records these capabilities without publishing protected sour
 
 # Evolution Data · from verification to recovery
 
+> ### Your AI already explored more than it showed you.
+> **The question is whether you kept enough evidence to find it again.**
+
 Verification tells you whether the evidence survives inspection. **Recovery asks what that evidence lets you do next.**
 
 Evolution Data retains decision families rather than only yesterday’s winner, then revalues the recorded alternatives when the objective changes.
