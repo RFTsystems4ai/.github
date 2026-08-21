@@ -57,7 +57,7 @@ Findings are being corrected one at a time and re-tested before the public labs 
 
 # Controlled verification layer
 
-ReplayProof, AuditPlane and RFT-VS remain protected capabilities. Public descriptions expose capability boundaries, not producer implementation, private trust stores, signing secrets, reconstruction logic or private RFT/ROD/agent-mutation mechanisms.
+ReplayProof, AuditPlane and RFT-VS remain protected capabilities. Public descriptions expose capability boundaries, not producer implementation, private trust stores, signing secrets, reconstruction logic or protected producer mechanisms.
 
 ---
 
@@ -76,10 +76,10 @@ The private producer layer remains separate from the public demonstration surfac
 
 ## HAK_GAL · LLM security workflow
 
-An external builder integrated RFTSystems verification concepts into an LLM security/firewall workflow spanning receipts, event recording, baselines, replay, differential analysis and verification bundles.
+An external builder integrated RFTSystems4Ai verification concepts into an LLM security/firewall workflow spanning receipts, event recording, baselines, replay, differential analysis and verification bundles.
 
 **[Read HAK_GAL’s integration report →](https://discuss.huggingface.co/t/a-bidirectional-llm-firewall-next-level-x1-help-wanted/172352/11)**  
-**[Read the RFTSystems technical verification follow-up →](https://discuss.huggingface.co/t/a-bidirectional-llm-firewall-next-level-x1-help-wanted/172352/16)**
+**[Read the RFTSystems4Ai technical verification follow-up →](https://discuss.huggingface.co/t/a-bidirectional-llm-firewall-next-level-x1-help-wanted/172352/16)**
 
 External adoption is evidence of use. Our own release gates are evidence about our verification components. They are not interchangeable.
 
@@ -116,4 +116,8 @@ RFTSystems4Ai is aimed at builders working with coding agents, multi-agent orche
 
 **From blame to verifiable recovery.**
 
+RFTSystems4Ai is a trading name of **Liam S Grinstead, sole trader**.
+
 Controlled integration and API discussions: **rftsystems4ai@gmail.com**
+
+© 2026 Liam S Grinstead. All rights reserved.
