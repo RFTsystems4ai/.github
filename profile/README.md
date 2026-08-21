@@ -72,19 +72,6 @@ The private producer layer remains separate from the public demonstration surfac
 
 ---
 
-# External integration evidence
-
-## HAK_GAL · LLM security workflow
-
-An external builder integrated RFTSystems4Ai verification concepts into an LLM security/firewall workflow spanning receipts, event recording, baselines, replay, differential analysis and verification bundles.
-
-**[Read HAK_GAL’s integration report →](https://discuss.huggingface.co/t/a-bidirectional-llm-firewall-next-level-x1-help-wanted/172352/11)**  
-**[Read the RFTSystems4Ai technical verification follow-up →](https://discuss.huggingface.co/t/a-bidirectional-llm-firewall-next-level-x1-help-wanted/172352/16)**
-
-External adoption is evidence of use. Our own release gates are evidence about our verification components. They are not interchangeable.
-
----
-
 # What “verified” means here
 
 We deliberately separate three questions:
