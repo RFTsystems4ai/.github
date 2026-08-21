@@ -20,6 +20,10 @@ RFTSystems4Ai provides public interactive demonstrations for AI verification, fa
 - [Evolution Data — DecisionFamily Revaluation](https://rftsystems4ai.github.io/evolution-data/)
 - [Independent Evolution Data Verifier](https://rftsystems4ai.github.io/evolution-data/verify.html)
 
+### Community
+
+[Join RFTSystems4Ai Community Discussions →](https://rftsystems4ai.github.io/community/)
+
 > **No receipt → no claim.**
 >
 > Verification is not truth. Evidence should survive attempts to falsify it.
