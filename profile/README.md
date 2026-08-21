@@ -10,7 +10,8 @@
 ## **RFTSystems4Ai gives you the rest.**
 
 **[▶ ENTER THE VERIFICATION LAB →](https://rftsystems4ai.github.io/ai-verification-workshop/)**  
-**[◈ ENTER THE EVOLUTION DATA DECISION FIELD →](https://rftsystems4ai.github.io/evolution-data-results/)**
+**[◈ ENTER THE EVOLUTION DATA DECISION FIELD →](https://rftsystems4ai.github.io/evolution-data-results/)**  
+**[⚠ FALSIFICATION CHALLENGE #001 — BREAK THE FLIGHT RECORDER →](https://rftsystems4ai.github.io/ai-verification-workshop/challenge/001-break-flight-recorder/)**
 
 When an AI system fails, a screenshot of the final output is not enough. We want the run, the state transitions, the memory evidence, the integrity chain, the replay, the first divergence and the evidence needed to recover deliberately rather than guess.
 
@@ -42,19 +43,18 @@ This is the operating model: **start with the state that exists, trace the evide
 
 We would rather you falsify a claim than trust a badge.
 
-### A five-minute verification exercise
+### Falsification Challenge #001 — Break the Flight Recorder
 
-1. Open the **Agent Flight Recorder**.
-2. Generate a browser-local evidence chain.
-3. Verify the untouched record.
-4. Tamper with one recorded event.
-5. Verify again.
+1. Build the clean six-event synthetic baseline.
+2. Freeze the original SHA-256 commitments.
+3. Modify, remove, reorder or inject evidence.
+4. Keep the original seal unchanged.
+5. Try to make the verifier still return **PASS**.
 
-The untouched chain should pass. The altered chain should not.
+**[ENTER FALSIFICATION CHALLENGE #001 →](https://rftsystems4ai.github.io/ai-verification-workshop/challenge/001-break-flight-recorder/)**  
+[Submit or inspect public challenge reports →](https://github.com/RFTsystems4ai/ai-verification-workshop/issues/8)
 
-**[Break the Agent Flight Recorder →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/flight-recorder/)**
-
-If a verification system cannot survive controlled tampering, replay, mutation and comparison, it should not be presented as strong evidence.
+If a verification system cannot survive controlled tampering, replay, mutation and comparison, it should not be presented as strong evidence. If somebody finds a genuine bypass, the aim is to reproduce it, record it and fix it — not hide it.
 
 ---
 
