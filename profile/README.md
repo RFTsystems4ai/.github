@@ -6,6 +6,12 @@
 
 `RECORD` → `SEAL` → `VERIFY` → `REPLAY` → `DIFF` → `AUDIT` → `REVALUE` → `RECOVER`
 
+### **YOUR AI CHOSE THIS PATH.**
+## **RFTSystems4Ai gives you the rest.**
+
+**[▶ ENTER THE VERIFICATION LAB →](https://rftsystems4ai.github.io/ai-verification-workshop/)**  
+**[◈ ENTER THE EVOLUTION DATA DECISION FIELD →](https://rftsystems4ai.github.io/evolution-data-results/)**
+
 When an AI system fails, a screenshot of the final output is not enough. We want the run, the state transitions, the memory evidence, the integrity chain, the replay, the first divergence and the evidence needed to recover deliberately rather than guess.
 
 > ### No receipt → no claim.
@@ -19,13 +25,13 @@ The useful questions are testable:
 
 | Stage | Falsifiable question | RFTSystems4Ai surface |
 |---|---|---|
-| **Record** | What did the agent actually do? | [Agent Flight Recorder](https://huggingface.co/spaces/RFTSystems/Agent_Flight_Recorder) |
+| **Record** | What did the agent actually do? | [Agent Flight Recorder](https://rftsystems4ai.github.io/ai-verification-workshop/lab/flight-recorder/) |
 | **Seal** | Has the recorded evidence changed? | Hash-chained records + signed receipts |
-| **Verify** | Does the evidence satisfy its declared integrity and trust contract? | [RFT Memory Receipt Engine](https://huggingface.co/spaces/RFTSystems/RFT_Memory_Receipt_Engine) |
+| **Verify** | Does the evidence satisfy its declared integrity and trust contract? | [RFT Memory Receipt Engine](https://rftsystems4ai.github.io/ai-verification-workshop/lab/memory-receipt/) |
 | **Replay** | Can the recorded run/state be reproduced? | ReplayProof — controlled integration |
-| **Diff** | Where did two executions first diverge? | [TimelineDiff](https://huggingface.co/spaces/RFTSystems/TimelineDiff__Differential_Reproducibility) |
-| **Audit** | What evidence is strong enough to admit? | [TrustStack Console](https://huggingface.co/spaces/RFTSystems/TrustStack_Console) + AuditPlane |
-| **Revalue** | Does yesterday’s decision survive today’s objective? | [Evolution Data](https://github.com/RFTsystems4ai/evolution-data-results) |
+| **Diff** | Where did two executions first diverge? | [TimelineDiff](https://rftsystems4ai.github.io/ai-verification-workshop/lab/timelinediff/) |
+| **Audit** | What evidence is strong enough to admit? | [TrustStack Console](https://rftsystems4ai.github.io/ai-verification-workshop/lab/truststack/) + AuditPlane |
+| **Revalue** | Does yesterday’s decision survive today’s objective? | [Evolution Data](https://rftsystems4ai.github.io/evolution-data-results/) |
 | **Recover** | Was a better alternative already present and retained? | Decision-family recovery + verification receipt |
 
 This is the operating model: **start with the state that exists, trace the evidence backwards, then follow the surviving paths forward again.**
@@ -39,14 +45,14 @@ We would rather you falsify a claim than trust a badge.
 ### A five-minute verification exercise
 
 1. Open the **Agent Flight Recorder**.
-2. Generate a run and export its evidence bundle.
-3. Verify the untouched bundle.
-4. Duplicate it and alter an event.
+2. Generate a browser-local evidence chain.
+3. Verify the untouched record.
+4. Tamper with one recorded event.
 5. Verify again.
 
 The untouched chain should pass. The altered chain should not.
 
-**[Open Agent Flight Recorder →](https://huggingface.co/spaces/RFTSystems/Agent_Flight_Recorder)**
+**[Break the Agent Flight Recorder →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/flight-recorder/)**
 
 If a verification system cannot survive controlled tampering, replay, mutation and comparison, it should not be presented as strong evidence.
 
@@ -54,46 +60,47 @@ If a verification system cannot survive controlled tampering, replay, mutation a
 
 # Public verification workshop
 
-The public workshop connects the verification surfaces without exposing the protected producer layer.
+The public workshop connects the verification surfaces without exposing the protected producer layer. The primary demos run as static browser labs on GitHub Pages: no Hugging Face CPU, queue or wake-up delay is required.
 
-**[Open the AI Verification Workshop →](https://github.com/RFTsystems4ai/ai-verification-workshop)**
+**[Enter the AI Verification Workshop →](https://rftsystems4ai.github.io/ai-verification-workshop/)**  
+[Inspect the public workshop repository](https://github.com/RFTsystems4ai/ai-verification-workshop)
 
 ### 01 · START HERE — Agent Forensics Suite
 **Orientation across the full evidence path.**
 
 Record → Seal → Verify → Replay → Diff → Audit.
 
-**[Launch START HERE](https://huggingface.co/spaces/RFTSystems/START_HERE__Agent_Forensics_Suite)**
+**[Launch START HERE →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/start-here/)**
 
 ### 02 · Agent Flight Recorder
 **Black-box evidence for agent runs.**
 
-Hash-chained prompts, outputs, tool calls/results, memory operations and session anchors. Export a bundle and independently test whether it has been altered.
+Hash-chained prompts, outputs, tool calls/results and memory operations. Build the record locally, verify it, mutate an event and watch the chain fail.
 
-**[Launch Flight Recorder](https://huggingface.co/spaces/RFTSystems/Agent_Flight_Recorder)**
+**[Launch Flight Recorder →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/flight-recorder/)**
 
 ### 03 · RFT Memory Receipt Engine
 **Ask which memory actually influenced the result.**
 
-The hardened receipt contract binds retrieval content, ledger state, prompt/response hashes and signatures to a declared verification scope. Legacy evidence is not silently upgraded beyond what it can prove.
+The browser lab builds a transparent synthetic memory ledger, binds retrieved evidence and an answer into a SHA-256 receipt, then demonstrates verification failure after evidence tampering. The broader hardened contract remains explicitly scoped in the release evidence.
 
-**[Launch Memory Receipt Engine](https://huggingface.co/spaces/RFTSystems/RFT_Memory_Receipt_Engine)**
+**[Launch Memory Receipt Engine →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/memory-receipt/)**
 
 ### 04 · TimelineDiff
 **Find the first meaningful divergence.**
 
-Compare reproducible evidence bundles, identify changed or missing events and distinguish a stable replay from a drifting execution.
+Compare two independently valid timelines, identify their first behavioural divergence, then separately demonstrate what actual evidence corruption looks like.
 
-**[Launch TimelineDiff](https://huggingface.co/spaces/RFTSystems/TimelineDiff__Differential_Reproducibility)**
+**[Launch TimelineDiff →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/timelinediff/)**
 
 ### 05 · TrustStack Console
 **Decide whether evidence is admissible at the required scope.**
 
-`ALLOW` — required signed evidence verifies.  
+`ALLOW` — required evidence verifies at the declared scope.  
 `HOLD` — inspectable evidence exists, but its binding is partial.  
-`BLOCK` — integrity, receipt or signature verification fails.
+`BLOCK` — integrity or signature verification fails.
 
-**[Launch TrustStack](https://huggingface.co/spaces/RFTSystems/TrustStack_Console)**
+**[Launch TrustStack →](https://rftsystems4ai.github.io/ai-verification-workshop/lab/truststack/)**
 
 ---
 
@@ -125,7 +132,8 @@ Evolution Data retains decision families rather than only yesterday’s winner, 
 
 A model upgrade, tighter latency SLA, new QA threshold, reduced inference budget or changed risk appetite can alter which candidate is preferred — without pretending the old run never happened.
 
-**[Explore Evolution Data →](https://github.com/RFTsystems4ai/evolution-data-results)**
+**[ENTER THE DECISION FIELD →](https://rftsystems4ai.github.io/evolution-data-results/)**  
+[Inspect the Evolution Data repository](https://github.com/RFTsystems4ai/evolution-data-results)
 
 The Decision Field demonstrates the idea visually:
 
@@ -217,4 +225,4 @@ The objective is not to make failure disappear.
 
 **From blame to verifiable recovery.**
 
-Public verification tools are available through the links above. Controlled integration and API discussions: **rftsystems4ai@gmail.com**
+Public verification tools are available through the live browser labs above. Controlled integration and API discussions: **rftsystems4ai@gmail.com**
